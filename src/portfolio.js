@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { BsFilterRight } from "react-icons/bs";
-
+import { Link } from "react-router-dom";
 class Portfolio extends Component {
     render() {
 
@@ -15,10 +15,10 @@ class Portfolio extends Component {
                     </div>
                 </header>
                 <ul className="menu__list">
-                    <li><a src="#">About</a> </li>
-                    <li><a src="#">Experience</a> </li>
-                    <li><a src="#">Projects</a> </li>
-                    <li><a src="#">Contact</a> </li>
+                    <li><Link to="/">About</Link> </li>
+                    <li><Link to="/">Experience</Link> </li>
+                    <li><Link to="/">Projects</Link> </li>
+                    <li><Link to="/">Contact</Link> </li>
                 </ul>
             </div>
         );
